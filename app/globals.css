@@ -15,6 +15,10 @@
   @apply w-11/12 bg-transparent h-11 rounded-2xl justify-start border border-transparent shadow-none;
 }
 
+.navButtonActive {
+  @apply border-gray-200 border bg-[#e4e4e480] shadow;
+}
+
 .navButton:hover {
   @apply border-gray-200 border hover:bg-[#e4e4e480] shadow;
 }
