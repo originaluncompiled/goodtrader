@@ -12,7 +12,7 @@
 }
 
 .navButton {
-  @apply w-11/12 bg-transparent h-11 rounded-2xl justify-start border border-transparent shadow-none;
+  @apply w-full bg-transparent h-11 rounded-2xl justify-start border border-transparent shadow-none;
 }
 
 .navButtonActive {

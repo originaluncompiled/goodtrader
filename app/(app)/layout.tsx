@@ -1,11 +1,12 @@
 import Sidebar from '@/components/Sidebar'
 import React from 'react'
 
-const layout = () => {
+const layout = ({ children }: { children: React.ReactNode }) => {
   return (
-    <section>
+    <div className='flex flex-row'>
       <Sidebar />
-    </section>
+      <main className='ml-[275px]'>{children}</main>
+    </div>
   )
 }
 
